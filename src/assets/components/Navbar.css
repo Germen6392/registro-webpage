@@ -1,0 +1,38 @@
+/* Colores
+ * hover items nav #447fe3
+ * background nav #849eaa
+ * color fuente #eef6f9
+ * */
+
+ nav {
+    background-color:#849eaa;
+    color:#eef6f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    }
+    
+    ul {
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+    }
+    
+    li {
+    font-size:2em;
+    font-size: 1.2em;
+    margin: 2px auto;
+    transition:.3s;
+    }
+    
+    li:hover {
+    background-color: #447fe3;
+    padding: 2px 20px;
+    border-radius: 20px;
+    cursor:pointer;
+    }
+    
