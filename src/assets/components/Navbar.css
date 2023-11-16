@@ -26,12 +26,13 @@
     font-size:2em;
     font-size: 1.2em;
     margin: 2px auto;
+    padding: 2px 20px;
     transition:.3s;
     }
     
     li:hover {
     background-color: #447fe3;
-    padding: 2px 20px;
+    
     border-radius: 20px;
     cursor:pointer;
     }
